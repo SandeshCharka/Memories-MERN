@@ -9,6 +9,7 @@ import postRoutes from "./routes/posts.js";
 // const express = require('express');
 
 const app = express();
+console.log('hey')
 
 app.use("/posts", postRoutes);
 
